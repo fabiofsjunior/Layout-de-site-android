@@ -143,8 +143,21 @@ main img.pequena{
 
 main iframe{
     margin: auto;
-    max-width: 800px;
     display: block;
+}
+
+div.video{
+    background-color: var(--cor5);
+    margin-bottom: 30px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top:2%;
+    left: 0%;
+    width: 100%;
+    height: 95%;
 }
 aside{
     background-image: linear-gradient(to right, var(--cor2), transparent);
