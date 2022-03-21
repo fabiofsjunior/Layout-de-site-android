@@ -143,6 +143,7 @@ main img.pequena{
 
 main iframe{
     margin: auto;
+    max-width: 800px;
     display: block;
 }
 aside{
